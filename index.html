@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="That's a landing page for our first MATRIX Labs Hackathon">
+    <meta name="author" content="Matrix Labs Brasil">
+
+    <title>MATRIX Labs HACKATHON!</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/everloop.png" type="image/x-icon">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+
+    <style type="text/css" id="custom-fonts">
+      /* custom fonts */
+    @font-face {font-family: 'Roboto Regular';src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/RobotoRegular.eot') format('eot'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/RobotoRegular.woff') format('woff'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/RobotoRegular.svg') format('svg'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/RobotoRegular.ttf') format('truetype');}
+    @font-face {font-family: 'Roboto Medium';src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/RobotoMedium.eot') format('eot'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/RobotoMedium.svg') format('svg'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/RobotoMedium.ttf') format('truetype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/RobotoMedium.woff') format('woff');}
+    @font-face {font-family: 'Roboto Bold';src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/RobotoBold.eot') format('eot'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/RobotoBold.svg') format('svg'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/RobotoBold.ttf') format('truetype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/RobotoBold.woff') format('woff');}
+    @font-face {font-family: 'Apercu Regular';src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/apercuregularwebfont.eot') format('eot'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/apercuregularwebfont.svg') format('svg'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/apercuregularwebfont.ttf') format('truetype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/apercuregularwebfont.woff') format('woff');}
+    @font-face {font-family: 'Apercu Medium';src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/apercumediumwebfont.eot') format('eot'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/apercumediumwebfont.svg') format('svg'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/apercumediumwebfont.ttf') format('truetype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/apercumediumwebfont.woff') format('woff');}
+    @font-face {font-family: 'Apercu Bold';src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/apercuboldwebfont.eot') format('eot'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/apercuboldwebfont.svg') format('svg'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/apercuboldwebfont.ttf') format('truetype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/apercuboldwebfont.woff') format('woff');}
+    @font-face {font-family: 'Sharp Sans Regular';src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/ss400.eot') format('eot'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/ss400.svg') format('svg'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/ss400.ttf') format('truetype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/ss400.woff') format('woff');}
+    @font-face {font-family: 'Sharp Sans Medium';src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/ss500.eot') format('eot'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/ss500.svg') format('svg'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/ss500.ttf') format('truetype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/ss500.woff') format('woff');}
+    @font-face {font-family: 'Sharp Sans Bold';src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/ss600.eot') format('eot'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/ss600.svg') format('svg'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/ss600.ttf') format('truetype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/213/2136839/fonts/ss600.woff') format('woff');}
+    @font-face {font-family: 'FreigSanProBold';src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/251/2513351/fonts/FreigSanProBold.woff') format('woff'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/251/2513351/fonts/FreigSanProBold.ttf') format('truetype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/251/2513351/fonts/FreigSanProBold.svg') format('svg'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/251/2513351/fonts/FreigSanProBold.otf') format('opentype');}
+    @font-face {font-family: 'FreigSanProMed';src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/251/2513351/fonts/FreigSanProMed.woff') format('woff'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/251/2513351/fonts/FreigSanProMed.ttf') format('truetype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/251/2513351/fonts/FreigSanProMed.svg') format('svg'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/251/2513351/fonts/FreigSanProMed.otf') format('opentype');}
+    @font-face {font-family: 'FaktSlabProMedium';src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/251/2513351/fonts/FaktSlabPro-Medium.woff') format('woff'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/251/2513351/fonts/FaktSlabPro-Medium.ttf') format('truetype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/251/2513351/fonts/FaktSlabPro-Medium.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/251/2513351/fonts/FaktSlabPro-Medium.eot') format('eot');}
+    </style>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+            Menu <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand page-scroll text-center" href="#page-top">
+            <img id="everloop" src="img/everloop.png"/> <span class="hidden-xs hidden-sm "><span class="light">MATRIX Labs</span> Hackathon</span>
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#about">About the Hackathon</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#generalRules">General Rules</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#schedule">Schedule</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#location">Location</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-lg-12">
+              <h1 class="brand-heading">Matrix Labs Hackathon</h1>
+              <p class="intro-text">That's our first <strong>(but not the last)</strong> HACKATHON, powered by
+                MATRIX Labs Brasil and AbsamHost</p>
+              <a href="#about" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h2>About the Hackathon</h2>
+          <p>We from MATRIX Labs Brasil with support of <a href="https://www.absamhost.com.br">AbsamHost</a> are bringing to YOU the chance to participate on a Amazing IoT Hackathon.</p>
+          <p>You can have the chance to meet new people, work with an amazing IoT device and, of course, win amazing prizes.</p>
+          <p>And it's totally <strong>FREE</strong>!!!!! So, what are you waiting for? Make your registration <a href="https://goo.gl/forms/tvWTE4Dml3IRjMGn2">(here)</a> and hope to be one of the lucky guys who's gonna participate!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- General Rules Section -->
+    <section id="generalRules" class="darker-black content-section text-center ">
+      <div class="download-section">
+        <div class="container">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2>Our Rules</h2>
+            <p>So blabla it's our rules for you. Keep Strong</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="content-section text-center">
+      <div class="download-section">
+        <div class="container">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2>Schedule</h2>
+            <p>Our <strong>AMAZING</strong> hackathon will start at March 16h and ends at March 17h. It's 24 HOURS OF AMAZINGNESS.</p>
+
+            <div class="agenda">
+              <div class="row">
+                <div class="when col-lg-4 col-md-4 col-sm-12 col-xs-12">16/03/2017 - 8:30am</div>
+                <div class="where col-lg-4 col-md-4 col-sm-12 col-xs-12">MP 55</div>
+                <div class="what col-lg-4 col-md-4 col-sm-12 col-xs-12">Apresentação do Hackathon</div>
+              </div>
+            </div>
+            <div class="agenda">
+              <div class="row">
+                <div class="when col-lg-4 col-md-4 col-sm-12 col-xs-12">17/03/2017 - 12:00pm</div>
+                <div class="where col-lg-4 col-md-4 col-sm-12 col-xs-12">MP 55</div>
+                <div class="what col-lg-4 col-md-4 col-sm-12 col-xs-12">Encerramento do Hackathon</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="darker-black content-section text-center">
+      <div class="download-section">
+        <div class="container">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2>Location</h2>
+            <p>Our <strong>AMAZING</span> hackathon will be located at Universidade Estadual de Feira de Santana (UEFS).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="map">
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h2>MATRIX Labs Brasil</h2>
+          <p>Feel free to get in touch with us.</p>
+          <p><a href="http://www.matrixlabs.ai/contact.html">http://www.matrixlabs.ai/contact.html</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>Copyright &copy; Admobilize 2017</p>
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe7xQb1YWBLPDqFYAKE4G8_ysGyfuYyPg"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.min.js"></script>
+  </body>
+</html>
