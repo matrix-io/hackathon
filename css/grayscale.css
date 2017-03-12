@@ -138,12 +138,13 @@ a:focus {
   }
 }
 .intro .intro-body {
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .intro .intro-body .brand-heading {
   font-size: 60px;
 }
 .intro .intro-body .intro-text {
+  margin-top: 50px;
   font-size: 20px;
 }
 .intro h1,
