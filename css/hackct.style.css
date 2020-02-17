@@ -1,0 +1,185 @@
+:root {
+	--hct-background-color: #cbdeff;
+	--hct-accent-1: #134399;
+}
+
+body {
+	background-color: var(--hct-background-color);
+	font-family: "Muli", sans-serif;
+	font-size: 1.5vw;
+}
+
+.hct-header {
+	font-family: "Playfair Display", Verdana, sans-serif;
+	margin: 5px 0;
+	font-weight: bolder;
+}
+
+.hct-row {
+	display: flex;
+}
+
+.hct-row.align-center {
+	align-items: center;
+}
+
+.hct-accented{
+	color: var(--hct-accent-1);
+}
+
+
+#big-header {
+	font-size: 180px;
+}
+
+#register-btn {
+	border: 3px solid var(--hct-accent-1);
+	font-size: 30px;
+	color: var(--hct-accent-1);
+	background-color: transparent;
+	transition: .1s linear;
+	text-align: center;
+	padding: 10px;
+}
+
+#register-btn a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#register-btn:hover {
+	background-color: var(--hct-accent-1);
+	color: var(--hct-background-color);
+}
+
+header {
+	padding: 0 25px;
+}
+
+#header-text {
+	min-width: 50%;
+}
+
+#header-text h3 {
+	font-size: 32px;
+}
+
+#header-text h2 {
+	font-size: 48px;
+}
+
+#header-text button {
+	letter-spacing: 1px;
+}
+
+#header-map {
+	flex-grow: 1;
+}
+
+#header-map.sm {
+	display: none;
+}
+
+#header-map img {
+	width: 100%;
+}
+
+section {
+	padding-top: 10vw;
+	max-width: 60vw;
+	margin: auto;
+	font-weight: 500;
+	display: flex;
+	flex-flow: center;
+	align-items: center;
+}
+
+section h1 {
+	font-size: 3vw;
+	text-align: center;
+}
+
+#makerspace-logos {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	padding: 5px;
+	font-size: 15px;
+}
+
+#makerspace-logos img {
+	max-width: 25vw;
+	height: auto;
+}
+
+#makerspace-logos a {
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+}
+
+#makerspace-logos a + a {
+	border-top: 1px solid gainsboro;
+}
+
+iframe {
+	max-width: 100%;
+}
+
+@media only screen and (max-width:964px) {
+	.hct-row {
+		flex-flow: column;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+	}
+
+	#header-text {
+		margin-bottom: 15px;
+		z-index: 1;
+	}
+
+	#big-header {
+		font-size: 26vw;
+	}
+
+	#header-text h2 {
+		font-size: 6vw;
+	}
+
+	#header-map:not(.sm) {
+		display: none;
+	}
+
+	#header-map.sm {
+		display: block;
+		margin-bottom: calc((-100vw * .63) / 2);
+		left: 0;
+		flex-grow: 0;
+	}
+
+	#header-map.sm img {
+		width: 100vw;
+		opacity: .4;
+	}
+
+/*	#header-text h2 {
+		font-size: 8vw;
+	}*/
+
+	#register-btn {
+		width: 100%;
+	}
+
+	section {
+		font-size: 20px;
+		z-index: 2;
+	}
+
+	section h1 {
+		max-width: unset;
+		font-size: 45px;
+	}
+}
