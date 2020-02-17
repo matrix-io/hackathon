@@ -90,7 +90,7 @@ section {
 	margin: auto;
 	font-weight: 500;
 	display: flex;
-	flex-flow: center;
+	flex-flow: column;
 	align-items: center;
 }
 
@@ -125,7 +125,8 @@ section h1 {
 }
 
 iframe {
-	max-width: 100%;
+	width: 33vw;
+	height: 33vw;
 }
 
 @media only screen and (max-width:964px) {
