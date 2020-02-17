@@ -3,20 +3,41 @@
 	--hct-accent-1: #134399;
 }
 
+html {
+	background: var(--hct-background-color);
+	scrollbar-color: #9eb2d5 var(--hct-background-color);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: .5em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--hct-background-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9eb2d5;
+}
+
 body {
-	background-color: var(--hct-background-color);
 	font-family: "Muli", sans-serif;
 	font-size: 1.5vw;
+	margin: 0;
 }
 
 .hct-header {
-	font-family: "Playfair Display", Verdana, sans-serif;
+	font-family: "Lato", Verdana, sans-serif;
 	margin: 5px 0;
 	font-weight: bolder;
 }
 
 .hct-row {
 	display: flex;
+		height: 100vh;
 }
 
 .hct-row.align-center {
