@@ -150,7 +150,11 @@ iframe {
 	height: 33vw;
 }
 
-@media only screen and (max-width:964px) {
+@media only screen and (max-width:1024px) {
+	body {
+		font-size: 30px;
+	}
+
 	.hct-row {
 		flex-flow: column;
 		align-items: center;
