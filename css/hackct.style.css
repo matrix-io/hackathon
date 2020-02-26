@@ -37,7 +37,6 @@ body {
 
 .hct-row {
 	display: flex;
-		height: 100vh;
 }
 
 .hct-row.align-center {
@@ -122,33 +121,53 @@ section h1 {
 
 #makerspace-logos {
 	display: flex;
-	flex-flow: column;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 	background-color: #fff;
 	padding: 5px;
-	font-size: 15px;
 }
 
 #makerspace-logos img {
-	max-width: 25vw;
-	height: auto;
+	max-width: 20vw;
+	max-height: 10vw;
+	margin: 15px;
 }
 
-#makerspace-logos a {
-	width: 100%;
-	text-align: center;
-	padding: 5px;
+#sponsor-logos {
+	background-color: #fff;
 }
 
-#makerspace-logos a + a {
-	border-top: 1px solid gainsboro;
+#sponsor-logos img {
+	max-width: 20vw;
+	max-height: 10vw;
+	margin: 10px;
 }
 
 iframe {
 	width: 33vw;
 	height: 33vw;
 }
+
+.hct-schedule {
+	width: 50%;
+	display: inline-flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.hct-schedule + .hct-schedule {
+	border-left: 3px dashed #9eb2d5;
+}
+
+.hct-schedule table tr td {
+	padding: 15px;
+}
+
+.hct-schedule table tr td:first-child {
+	width: 8vw;
+	text-align: right;
+} 
 
 @media only screen and (max-width:1024px) {
 	body {
@@ -159,7 +178,6 @@ iframe {
 		flex-flow: column;
 		align-items: center;
 		justify-content: center;
-		height: 100vh;
 	}
 
 	#header-text {
@@ -195,8 +213,23 @@ iframe {
 		font-size: 8vw;
 	}*/
 
+	.hct-schedule + .hct-schedule {
+		border-left: none;
+		border-top: 3px dashed #9eb2d5;
+	}
+
 	#register-btn {
 		width: 100%;
+	}
+
+	#makerspace-logos img {
+		max-width: 75vw;
+		max-height: 250px;
+	}
+
+	#sponsor-logos img {
+		max-width: 75vw;
+		max-height: 250px;
 	}
 
 	section {
